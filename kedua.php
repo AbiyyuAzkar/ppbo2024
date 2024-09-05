@@ -16,7 +16,7 @@ function kelilinglingkaran($jari) : float {
 }
 
 $keliling_tanah = kelilingLingkaran(45);
-echo "Keliling tanah Budi adalah {$keliling_tanah}";
+echo "\nKeliling tanah Budi adalah {$keliling_tanah}";
 
 function volumeBola($jari) : float {
     $volume = (4/3) * 3.14 * pow($jari, 3);
@@ -24,7 +24,7 @@ function volumeBola($jari) : float {
 }
 
 $volume_bola = volumeBola(45);
-echo "Volume bola dengan jari-jari 45 adalah {$volume_bola}";
+echo "\nVolume bola dengan jari-jari 45 adalah {$volume_bola}";
 
 function volumeTabung($jari, $tinggi) : float {
     $volume = 3.14 * pow($jari, 2) * $tinggi;
@@ -32,7 +32,7 @@ function volumeTabung($jari, $tinggi) : float {
 }
 
 $volume_tabung = volumeTabung(45, 100);
-echo "Volume tabung dengan jari-jari 45 dan tinggi 100 adalah {$volume_tabung}";
+echo "\nVolume tabung dengan jari-jari 45 dan tinggi 100 adalah {$volume_tabung}";
 
 function volumeKerucut($jari, $tinggi) : float {
     $volume = (1/3) * 3.14 * pow($jari, 2) * $tinggi;
@@ -40,4 +40,4 @@ function volumeKerucut($jari, $tinggi) : float {
 }
 
 $volume_kerucut = volumeKerucut(45, 100);
-echo "Volume kerucut dengan jari-jari 45 dan tinggi 100 adalah {$volume_kerucut}";
+echo "\nVolume kerucut dengan jari-jari 45 dan tinggi 100 adalah {$volume_kerucut}";
