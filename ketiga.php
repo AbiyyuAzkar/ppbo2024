@@ -2,7 +2,7 @@
 class Lingkaran
 {
     const PHI = 3.14;
-    public $jari_jari; 
+    public $jari_jari;
 
     public function __construct($jari_jari) {
         $this->jari_jari = $jari_jari; 
@@ -20,7 +20,7 @@ class Lingkaran
 class Bola
 {
     const PHI = 3.14;
-    public $jari_jari; 
+    public $jari_jari;
 
     public function __construct($jari_jari) {
         $this->jari_jari = $jari_jari; 
@@ -34,8 +34,8 @@ class Bola
 class Tabung
 {
     const PHI = 3.14;
-    public $jari_jari; 
-    public $tinggi;   
+    public $jari_jari;
+    public $tinggi;
 
     public function __construct($jari_jari, $tinggi) {
         $this->jari_jari = $jari_jari; 
@@ -50,8 +50,8 @@ class Tabung
 class Kerucut
 {
     const PHI = 3.14;
-    public $jari_jari; 
-    public $tinggi;    
+    public $jari_jari;
+    public $tinggi;
 
     public function __construct($jari_jari, $tinggi) {
         $this->jari_jari = $jari_jari; 
